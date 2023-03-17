@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(26, 2, 51, 0.572);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 2px solid darkgoldenrod;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:200px ;
+    width: 40rem;
+}
+
+.txt {
+    text-transform: capitalize;
+    font-family: Cambria, 'Times New Roman', serif;
+    font-size: 1.5rem;
+}
+
+.btn {
+    padding: 0.5rem;
+    background-color: darkgoldenrod;
+    color: #fff;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 2.2rem;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+#input_box {
+    width: 20rem;
+    height: 5rem;
+    border: none;
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px;
+
+}
